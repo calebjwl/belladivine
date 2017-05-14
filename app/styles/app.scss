@@ -1,10 +1,14 @@
 $m-gutter: 1rem;
 $c-bg: #fffef2;
-$s-border: #aaa 0.05rem solid;
+$c-gray: #d7d7d7;
+$c-gray-darker: #717171;
+$s-border: $c-gray 0.1rem solid;
 
 @import 'reset';
 @import 'navbar';
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import 'home';
+@import 'footer';
+@import url('https://fonts.googleapis.com/css?family=Arapey');
 
 .section {
   padding: $m-gutter;
@@ -19,4 +23,20 @@ $s-border: #aaa 0.05rem solid;
   display: flex;
   align-self: center;
   margin: 0 auto;
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }

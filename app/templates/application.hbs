@@ -1,11 +1,47 @@
 <div class="container">
-  {{!-- {{#link-to 'home'}} --}}
-    <img src="/images/bella-logo.png" alt="" class="navbar__logo centered">
-  {{!-- {{/link-to}} --}}
+  <div class="navbar__logo">
+    {{!-- <img src="/images/flower-left.png" alt="" class="flower"> --}}
+    {{#link-to 'home'}}
+      <img src="/images/bella-logo.png" alt="" class="bella__logo hvr-grow">
+    {{/link-to}}
+    {{!-- <img src="/images/flower.png" alt="" class="flower"> --}}
+  </div>
   <div class="navbar">
-    <div class="navbar__button"><p class="button__text centered">About Us</p></div>
-    <div class="navbar__button"><p class="button__text centered">Gallery</p></div>
-    <div class="navbar__button"><p class="button__text centered">Locations</p></div>
-    <div class="navbar__button"><p class="button__text centered">Contact</p></div>
+    {{#link-to 'about' class="navbar__button"}}
+      <p class="button__text centered">About Us</p>
+    {{/link-to}}
+    {{#link-to 'gallery' class="navbar__button"}}
+      <p class="button__text centered">Gallery</p>
+    {{/link-to}}
+    {{#link-to 'locations' class="navbar__button"}}
+      <p class="button__text centered">Locations</p>
+    {{/link-to}}
+    {{#link-to 'contact' class="navbar__button"}}
+      <p class="button__text centered">Contact</p>
+    {{/link-to}}
+  </div>
+</div>
+
+<div class="container">
+  {{outlet}}
+</div>
+
+<div class="footer">
+  <p class="footer__text">
+    Parkway Place Mall | 2801 Memorial Pkwy SW |
+    Huntsville, Alabama 35801
+  </p>
+  <p class="footer__text">
+    (256) 382-3493
+  </p>
+  <p class="footer__text">
+    Monday-Saturday: 10AM-9PM |
+    Sunday: 12PM-6PM
+  </p>
+
+  <div class="social-media">
+    {{fa-icon 'facebook' class="social-media__icon"}}
+    {{fa-icon 'instagram' class="social-media__icon"}}
+    {{fa-icon 'envelope' class="social-media__icon"}}
   </div>
 </div>

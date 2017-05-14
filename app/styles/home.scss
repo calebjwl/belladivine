@@ -1,0 +1,12 @@
+.title-text {
+  font-size: 20px;
+}
+
+.grid {
+  display: flex;
+
+  &__item {
+    margin: 1rem;
+    width: calc(100% / 2 - 2rem)
+  }
+}

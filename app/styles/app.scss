@@ -1,0 +1,22 @@
+$m-gutter: 1rem;
+$c-bg: #fffef2;
+$s-border: #aaa 0.05rem solid;
+
+@import 'reset';
+@import 'navbar';
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.section {
+  padding: $m-gutter;
+}
+
+.container {
+  max-width: 65rem;
+  margin: 0 auto;
+}
+
+.centered {
+  display: flex;
+  align-self: center;
+  margin: 0 auto;
+}

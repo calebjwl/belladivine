@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  margin-top: 1.5rem;
+  border: $s-border;
+
+  > * + * {
+    border-left: $s-border;
+  }
+
+  &__button {
+    display: flex;
+    width: calc(100% / 4);
+    margin: 0;
+    padding: 0.5rem;
+  }
+
+  &__logo {
+    width: 20rem;
+  }
+}
+
+.button__text {
+
+}

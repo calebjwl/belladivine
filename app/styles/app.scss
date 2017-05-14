@@ -8,6 +8,7 @@ $s-border: $c-gray 0.1rem solid;
 @import 'navbar';
 @import 'home';
 @import 'footer';
+@import 'hover';
 @import url('https://fonts.googleapis.com/css?family=Arapey');
 
 .section {
@@ -23,20 +24,4 @@ $s-border: $c-gray 0.1rem solid;
   display: flex;
   align-self: center;
   margin: 0 auto;
-}
-
-.hvr-grow {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-}
-.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
 }

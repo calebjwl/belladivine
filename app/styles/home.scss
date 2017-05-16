@@ -13,17 +13,26 @@
 
 .main {
   position: relative;
-  background: url('/images/banner.jpg') fixed center no-repeat;
-  background-size: cover;
+  // background: url('/images/banner.jpg') fixed center no-repeat;
+  // background: #fff fixed center no-repeat;
+  // background-size: cover;
   width: 100%;
-  height: 50vh;
-  margin: 5rem 0 13rem 0;
+  height: 100vh;
+  // margin: 5rem 0 13rem 0;
 
   &__image {
     position: absolute;
-    left: 50%;
-    top: -15%;
-    transform: translateX(-50%);
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
     width: 25rem;
   }
+}
+
+.home-text {
+  font-family: 'Tangerine';
+  font-size: 3.8rem;
+  position: absolute;
+  left: 10%;
+  top: 0%;
 }

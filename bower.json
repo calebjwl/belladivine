@@ -1,0 +1,6 @@
+{
+  "name": "belladivine",
+  "dependencies": {
+    "photoswipe": "^4.1.1"
+  }
+}

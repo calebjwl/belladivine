@@ -1,1 +1,5 @@
-{{outlet}}
+{{#photo-swipe items=items history=false as |photoswipe|}}
+  {{#each items as |item index|}}
+    <img class="preview" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe}} />
+  {{/each}}
+{{/photo-swipe}}

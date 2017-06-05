@@ -9,8 +9,8 @@ export default Ember.Controller.extend({
     },
     {
       src: '/images/2.jpg',
-      w: 1080,
-      h: 1440,
+      w: 540,
+      h: 720,
     },
     {
       src: '/images/3.jpg',

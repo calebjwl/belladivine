@@ -1,30 +1,33 @@
-<div class="container">
+<div class="navbar">
   <div class="navbar__logo">
     {{!-- <img src="/images/flower-left.png" alt="" class="flower"> --}}
     {{#link-to 'home'}}
-      <img src="/images/bella-logo.png" alt="" class="bella__logo hvr-grow">
+      <img src="/images/bella-logo.png" alt="" class="bella__logo">
     {{/link-to}}
     {{!-- <img src="/images/flower.png" alt="" class="flower"> --}}
   </div>
-  <div class="navbar">
+  <div class="navbar__links">
     {{#link-to 'about' class="navbar__button"}}
-      <p class="button__text centered hvr-underline-from-center">About Us</p>
+      <p class="button__text hvr-underline-from-center">About Us</p>
     {{/link-to}}
     {{#link-to 'gallery' class="navbar__button"}}
-      <p class="button__text centered hvr-underline-from-center">Gallery</p>
+      <p class="button__text hvr-underline-from-center">Gallery</p>
     {{/link-to}}
     {{#link-to 'locations' class="navbar__button"}}
-      <p class="button__text centered hvr-underline-from-center">Locations</p>
+      <p class="button__text hvr-underline-from-center">Locations</p>
     {{/link-to}}
     {{#link-to 'contact' class="navbar__button"}}
-      <p class="button__text centered hvr-underline-from-center">Contact</p>
+      <p class="button__text hvr-underline-from-center">Contact</p>
     {{/link-to}}
   </div>
 </div>
 
-<div class="section">
-  <div class="container">{{outlet}}</div>
-</div>
+
+{{!-- <div class="section"> --}}
+  {{!-- <div class="container"> --}}
+    {{outlet}}
+  {{!-- </div> --}}
+{{!-- </div> --}}
 
 <div class="footer">
   <p class="footer__text">
@@ -40,8 +43,8 @@
   </p>
 
   <div class="social-media">
-    {{fa-icon 'facebook' class="social-media__icon"}}
-    {{fa-icon 'instagram' class="social-media__icon"}}
-    {{fa-icon 'envelope' class="social-media__icon"}}
+    <a target="_blank" href="https://www.facebook.com/BellaDivineHuntsville/">{{fa-icon 'facebook' class="social-media__icon"}}</a>
+    <a target="_blank" href="http://www.instagram.com/belladivinedresshuntsville">{{fa-icon 'instagram' class="social-media__icon"}}</a>
+    <a target="_blank" href="mailto:belladivinedress@gmail.com">{{fa-icon 'envelope' class="social-media__icon"}}</a>
   </div>
 </div>

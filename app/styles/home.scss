@@ -13,26 +13,29 @@
 
 .main {
   position: relative;
-  // background: url('/images/banner.jpg') fixed center no-repeat;
-  // background: #fff fixed center no-repeat;
-  // background-size: cover;
+  background: url('/images/banner.jpg') fixed center no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 100vh;
-  // margin: 5rem 0 13rem 0;
+  height: 65vh;
+  margin: 5rem 0 10rem 0;
 
   &__image {
     position: absolute;
-    right: 10%;
-    top: 50%;
+    right: 15%;
+    top: 60%;
     transform: translateY(-50%);
     width: 25rem;
   }
 }
 
-.home-text {
+.title-text {
   font-family: 'Tangerine';
-  font-size: 3.8rem;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.home-text {
   position: absolute;
   left: 10%;
-  top: 0%;
+  top: 10%;
 }

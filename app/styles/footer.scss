@@ -6,10 +6,10 @@
   width: 80%;
   margin: 0 auto;
   padding: 1rem;
-  // font-family: 'serif';
   color: $c-gray-darker;
 
   &__text {
+    font-family: 'Work+Sans';
     margin: 0.5rem 0;
     font-size: 20px;
   }
@@ -20,5 +20,10 @@
   &__icon {
     margin: 1rem;
     font-size: 40px;
+    color: $c-gray;
+
+    &:hover {
+      color: $c-gray-darker;
+    }
   }
 }

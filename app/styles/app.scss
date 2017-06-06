@@ -9,7 +9,7 @@ $s-border: $c-gray 0.1rem solid;
 @import 'home';
 @import 'footer';
 @import 'hover';
-@import url('https://fonts.googleapis.com/css?family=Arapey');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Allura');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 @import "ember-photoswipe";
@@ -20,6 +20,7 @@ $s-border: $c-gray 0.1rem solid;
 
 .container {
   max-width: 65rem;
+  padding: $m-gutter;
   margin: 0 auto;
 }
 

@@ -2,22 +2,13 @@
   font-size: 20px;
 }
 
-.grid {
-  display: flex;
-
-  &__item {
-    margin: 1rem;
-    width: calc(100% / 2 - 2rem)
-  }
-}
-
 .main {
   position: relative;
   background: url('/images/banner.jpg') fixed center no-repeat;
   background-size: cover;
   width: 100%;
   height: 65vh;
-  margin: 5rem 0 10rem 0;
+  margin: 3rem 0 10rem 0;
 
   &__content {
     max-width: 65rem;

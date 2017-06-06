@@ -3,28 +3,13 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   items: [
     {
-      src: '/images/1.png',
-      w: 405,
-      h: 720,
-    },
-    {
-      src: '/images/2.jpg',
-      w: 540,
-      h: 720,
-    },
-    {
-      src: '/images/3.jpg',
-      w: 716,
-      h: 960,
-    },
-    {
       src: '/images/4.jpg',
       w: 716,
       h: 960,
     },
     {
-      src: '/images/5.jpg',
-      w: 716,
+      src: '/images/8.jpg',
+      w: 528,
       h: 960,
     },
     {
@@ -38,9 +23,19 @@ export default Ember.Controller.extend({
       h: 960,
     },
     {
-      src: '/images/8.jpg',
+      src: '/images/18.jpg',
       w: 528,
       h: 960,
+    },
+    {
+      src: '/images/1.png',
+      w: 405,
+      h: 720,
+    },
+    {
+      src: '/images/2.jpg',
+      w: 540,
+      h: 720,
     },
     {
       src: '/images/9.jpg',
@@ -88,16 +83,6 @@ export default Ember.Controller.extend({
       h: 960,
     },
     {
-      src: '/images/18.jpg',
-      w: 528,
-      h: 960,
-    },
-    {
-      src: '/images/19.jpg',
-      w: 528,
-      h: 960,
-    },
-    {
       src: '/images/20.jpg',
       w: 528,
       h: 960,
@@ -131,21 +116,6 @@ export default Ember.Controller.extend({
       src: '/images/26.jpg',
       w: 528,
       h: 960,
-    },
-    {
-      src: '/images/27.jpg',
-      w: 528,
-      h: 960,
-    },
-    {
-      src: '/images/28.jpg',
-      w: 960,
-      h: 618,
-    },
-    {
-      src: '/images/29.jpg',
-      w: 960,
-      h: 720,
     },
     {
       src: '/images/30.jpg',

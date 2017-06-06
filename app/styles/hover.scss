@@ -1,18 +1,16 @@
 
 .hvr-grow {
-  display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-property: transform;
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 /* Underline From Center */

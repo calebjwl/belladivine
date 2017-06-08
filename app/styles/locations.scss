@@ -3,15 +3,26 @@
   flex-wrap: wrap;
 
   &__item {
-    display: flex;
-    flex-direction: column;
-    width: calc(100% / 2 - 1rem);
+    flex-basis: calc(100% / 2 - 1rem);
+    min-width: 20rem;
+    flex-grow: 1;
     margin: 0.5rem;
+
+    &_70 {
+      width: calc(100% - 35% - 1rem);
+    }
+
+    &_30 {
+      width: calc(100% - 65% - 1rem);
+    }
   }
 }
 
 .one-third {
   width: calc(100% / 3 - 1rem);
+  min-width: 15rem;
+  flex-grow: 1;
+  margin: 0.5rem;
 }
 
 .card {
@@ -39,4 +50,19 @@
 .g-map-canvas {
   width: 100%;
   height: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid__item {
+    &_70 {
+      margin: -3rem 0;
+      min-width: 20rem;
+      flex-grow: 1;
+    }
+
+    &_30 {
+      min-width: 20rem;
+      flex-grow: 1;
+    }
+  }
 }

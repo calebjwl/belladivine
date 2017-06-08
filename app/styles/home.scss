@@ -38,18 +38,17 @@
     display: flex;
     width: 65rem;
     height: 90%;
-    background: rgba(#fff, 0.7);
+    background: rgba(#fff, 0.9);
 
     &_card {
-      font-size: 20px;
       padding: 1rem;
       object-fit: cover;
     }
   }
 }
 
-.no-margin {
-  margin: 0;
+.small-margin {
+  margin: 0.1rem 0;
 }
 
 .title-text {

@@ -2,20 +2,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: $s-border;
-  width: 80%;
   margin: 0 auto;
   padding: 1rem;
   color: $c-gray-darker;
-
-  &__text {
-    margin: 0.5rem 0;
-    font-size: 20px;
-  }
 }
 
 .social-media {
-
   &__icon {
     margin: 1rem;
     font-size: 40px;

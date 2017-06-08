@@ -5,10 +5,13 @@
   &__item {
     display: flex;
     flex-direction: column;
-    // flex-grow: 1;
     width: calc(100% / 2 - 1rem);
     margin: 0.5rem;
   }
+}
+
+.one-third {
+  width: calc(100% / 3 - 1rem);
 }
 
 .card {

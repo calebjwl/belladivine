@@ -1,15 +1,3 @@
-{{!-- <div class="grid">
-  <div class="grid__item">
-    <img src="/images/red-dress.jpg" alt="" class="featured__image">
-  </div>
-  <div class="grid__item">
-    <img src="/images/blue-dress.jpg" alt="" class="featured__image">
-  </div>
-</div>
-<div class="section centered">
-  <p class="title-text centered">FEATURED : Burgundy and Navy, fitted</p>
-</div> --}}
-
 <div class="main">
   <div class="main__content">
     <div class="home-text">
@@ -19,7 +7,34 @@
   </div>
 </div>
 
-{{render "about"}}
+<div class="section">
+  <div class="container">
+    <div class="grid">
+      <div class="grid__item one-third">
+        <div class="center-card">
+          <h2 class="small-margin">Discounts &amp; Sales</h2>
+          <p>There are many seasonal sale items in our store, ranging from 10% off to 50% off items. Visit
+          our store today and look for the sales sections to see what savings are available for you!</p>
+        </div>
+      </div>
+      <div class="grid__item one-third">
+        <div class="center-card">
+          <h2 class="small-margin">Free Consultation</h2>
+          <p>No appointments. No hassle. Simply walk in to one of our locations today and enjoy a free
+          consultation from one of our prom and wedding dress advisors at no extra cost.</p>
+        </div>
+      </div>
+      <div class="grid__item one-third">
+        <div class="center-card">
+          <h2 class="small-margin">Customer Service</h2>
+          <p>Whether its finding the perfect dress for prom or the wedding gown of a lifetime,
+          our advisors will help you find the dress that fits your style, size, and budget.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="map-banner">
   <div class="map-banner__box">
@@ -38,11 +53,11 @@
             <p class="small-margin">Sunday: 12:00PM-6:00PM</p>
             <p class="small-margin">Monday-Saturday: 10:00AM-9:00PM</p>
           </p>
-          <p class="small-margin">Tel: <a href="tel:+1-256-382-3493">(256) 382-3493</a></p>
-          <p class="small-margin">E-mail: <a href="mailto:belladivinedress@gmail.com">belladivinedress@gmail.com</a></p>
-          {{#link-to 'locations'}}
-            <p>More location</p>
-          {{/link-to}}
+          <p>Tel: <a href="tel:+1-256-382-3493">(256) 382-3493</a></p>
+          <p>E-mail: <a href="mailto:belladivinedress@gmail.com">belladivinedress@gmail.com</a></p>
+          {{!-- {{#link-to 'locations'}}
+            <p>More locations</p>
+          {{/link-to}} --}}
         </div>
       </div>
       <div class="grid__item">

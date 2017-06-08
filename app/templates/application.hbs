@@ -1,10 +1,8 @@
 <div class="navbar">
   <div class="navbar__logo">
-    {{!-- <img src="/images/flower-left.png" alt="" class="flower"> --}}
     {{#link-to 'home'}}
       <img src="/images/bella-logo.png" alt="" class="bella__logo">
     {{/link-to}}
-    {{!-- <img src="/images/flower.png" alt="" class="flower"> --}}
   </div>
   <div class="navbar__links">
     {{#link-to 'about' class="navbar__button"}}
@@ -16,9 +14,9 @@
     {{#link-to 'locations' class="navbar__button"}}
       <p class="button__text hvr-underline-from-center">Locations</p>
     {{/link-to}}
-    <a href="mailto:belladivinedress@gmail.com" class="navbar__button">
+    {{#link-to 'contact' class="navbar__button"}}
       <p class="button__text hvr-underline-from-center">Contact</p>
-    </a>
+    {{/link-to}}
   </div>
 </div>
 

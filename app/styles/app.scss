@@ -28,6 +28,5 @@ $s-border: $c-gray 0.1rem solid;
 
 .centered {
   display: flex;
-  align-self: center;
-  margin: 0 auto;
+  justify-content: center;
 }

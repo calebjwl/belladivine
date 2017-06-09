@@ -1,6 +1,12 @@
 .preview {
   width: calc(100% / 4 - 0.15rem);
-  min-width: 15rem;
   height: 60vh;
   cursor: pointer;
+  object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 590px) {
+  .preview {
+    width: 100%;
+  }
 }

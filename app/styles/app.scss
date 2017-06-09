@@ -14,7 +14,7 @@ $s-border: $c-gray 0.1rem solid;
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Allura');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
-@import "ember-photoswipe";
+@import 'ember-photoswipe';
 
 .section {
   padding: $m-gutter;
@@ -22,8 +22,8 @@ $s-border: $c-gray 0.1rem solid;
 
 .container {
   max-width: 65rem;
-  padding: $m-gutter;
   margin: 0 auto;
+  padding: $m-gutter;
 }
 
 .centered {

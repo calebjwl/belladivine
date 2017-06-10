@@ -8,68 +8,28 @@
 <div class="section">
   <div class="container">
     <div class="grid">
-      <div class="grid__item">
-        <div class="card">
-          <img src="/images/huntsville.jpg" alt="" class="card__image">
-          <div class="card__info">
-            <h3>Huntsville, AL</h3>
-            <p>Parkway Place Mall</p>
-            <p>2801 Memorial Pkwy SW, Huntsville, Alabama 35801</p>
-            <p>Tel: (256) 382-3493</p>
-            <p>Monday-Saturday: 10AM-9PM, Sunday: 12PM-6PM</p>
+      {{#each items as |store|}}
+        <div class="grid__item">
+          <div class="card">
+            <img src="/images/{{store.src}}" alt="" class="card__image">
+            <div class="card__info">
+              <h2>{{store.title}}</h2>
+              <p class="small-margin">{{store.mall}}</p>
+              <p class="small-margin">{{store.street}}</p>
+              <p class="small-margin">{{store.city}}</p>
+              <a target="_blank" href="{{store.directions}}" class="small-margin">
+                Get Directions
+              </a>
+              <p>
+                <h3 class="small-margin">Hours:</h3>
+                <p class="small-margin">{{store.hours1}}</p>
+                <p class="small-margin">{{store.hours2}}</p>
+              </p>
+              <p>Tel: <a target="_blank" href="tel:+1-{{store.phone}}">{{store.phone}}</a></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="/images/fairfield.png" alt="" class="card__image">
-          <div class="card__info">
-            <h3>Fairfield, OH</h3>
-            <p>The Mall at Fairfield Commons</p>
-            <p>2727 Fairfield Commons, Beavercreek, OH 45431</p>
-            <p>Tel: (937) 320-9370</p>
-            <p>Monday-Saturday: 10AM-9PM, Sunday: 12PM-6PM</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="/images/olmstead.png" alt="" class="card__image">
-          <div class="card__info">
-            <h3>North Olmstead, OH</h3>
-            <p>Great Northern Mall</p>
-            <p>4954 Great Northern Blvd Unit 632, North Olmsted, OH 44070</p>
-            <p>Tel: (440) 782-7972</p>
-            <p>Monday-Saturday: 10AM-9PM, Sunday: 11AM-6PM</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <div class="map">
-            {{g-map lat=41.694791 lng=-83.640573 zoom=15}}
-          </div>
-          <div class="card__info">
-            <h3>Toledo, OH</h3>
-            <p>Franklin Park Mall</p>
-            <p>5001 Monroe St, Toledo, OH 43623</p>
-            <p>Tel: (419) 930-5599</p>
-            <p>Monday-Saturday: 10AM-9PM, Sunday: 11AM-6PM</p>
-          </div>
-        </div>
-      </div>
-      <div class="grid__item">
-        <div class="card">
-          <img src="/images/cind-dayton.png" alt="" class="card__image">
-          <div class="card__info">
-            <h3>Cinderella - Dayton, OH</h3>
-            <p>Dayton Mall</p>
-            <p>2700 Miamisburg Centerville Rd, Dayton, OH 45459</p>
-            <p>Tel: (937) 312-9969</p>
-            <p>Monday-Saturday: 10AM-9PM, Sunday: 12PM-6PM</p>
-          </div>
-        </div>
-      </div>
+      {{/each}}
     </div>
   </div>
 </div>

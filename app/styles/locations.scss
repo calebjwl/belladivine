@@ -19,16 +19,16 @@
 }
 
 .one-third {
+  flex-grow: 1;
   width: calc(100% / 3 - 1rem);
   min-width: 15rem;
-  flex-grow: 1;
   margin: 0.5rem;
 }
 
 .card {
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
+  flex-grow: 1;
   padding: 1rem;
   border: #e0e0e0 0.05rem solid;
 
@@ -43,7 +43,7 @@
   height: 15rem;
 }
 
-.g-map{
+.g-map {
   height: 100%;
 }
 
@@ -55,14 +55,31 @@
 @media (min-width: 320px) and (max-width: 480px) {
   .grid__item {
     &_70 {
-      margin: -3rem 0;
-      min-width: 20rem;
       flex-grow: 1;
+      min-width: 20rem;
+      margin: -3rem 0;
     }
 
     &_30 {
-      min-width: 20rem;
       flex-grow: 1;
+      min-width: 20rem;
     }
+  }
+}
+
+.main-locations {
+  margin: 0;
+  padding: 1rem;
+  background: url('/images/map-banner.jpg') fixed center no-repeat;
+  background-size: cover;
+  overflow: auto;
+
+  &__content {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+
+  &__image {
+    width: 20rem;
   }
 }

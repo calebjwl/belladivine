@@ -25,7 +25,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//The+Mall+at+Fairfield+Commons,+2727+Fairfield+Commons,+Beavercreek,+OH+45431/@39.7673189,-84.1264585,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x88409c607dc50449:0xa896241ea23e8449!2m2!1d-84.056418!2d39.767208',
     },
     {
-      src: '/images/olmstead.png',
+      src: '/images/olmstead.jpg',
       title: 'North Olmstead, OH',
       mall: 'Great Northern Mall',
       street: '4954 Great Northern Blvd Unit 632',

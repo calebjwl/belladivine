@@ -1,0 +1,35 @@
+<div class="main-locations">
+  <div class="container">
+    <div class="centered">
+      <p class="title-text" id="about">Locations</p>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="grid">
+      {{#each items as |store|}}
+        <div class="grid__item">
+          <div class="card">
+            <img src="{{store.src}}" alt="" class="card__image">
+            <div class="card__info">
+              <h2>{{store.title}}</h2>
+              <p class="small-margin">{{store.mall}}</p>
+              <p class="small-margin">{{store.street}}</p>
+              <p class="small-margin">{{store.city}}</p>
+              <a target="_blank" href="{{store.directions}}" class="small-margin">
+                Get Directions
+              </a>
+              <p>
+                <h3 class="small-margin">Hours:</h3>
+                <p class="small-margin">{{store.hours1}}</p>
+                <p class="small-margin">{{store.hours2}}</p>
+              </p>
+              <p>Tel: <a target="_blank" href="tel:+1-{{store.phone}}">{{store.phone}}</a></p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>

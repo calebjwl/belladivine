@@ -1,25 +1,40 @@
 .navbar {
   display: flex;
-  width: 100%;
-  margin-top: 1.5rem;
-  border: $s-border;
-
-  > * + * {
-    border-left: $s-border;
-  }
+  align-items: center;
+  justify-content: space-between;
+  max-width: 65rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  font-family: 'Work Sans', sans-serif;
 
   &__button {
-    display: flex;
-    width: calc(100% / 4);
-    margin: 0;
-    padding: 0.5rem;
-  }
-
-  &__logo {
-    width: 20rem;
+    margin: 0 1rem;
+    text-decoration: none;
   }
 }
 
-.button__text {
+.bella__logo {
+  width: 10rem;
+  margin: 0 1rem;
+}
 
+.button__text {
+  color: $c-gray-darker;
+  font-size: 15px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: black;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 590px) {
+  .navbar {
+    flex-direction: column;
+    min-width: 1rem;
+
+    &__button {
+      margin: 0 1.5rem;
+    }
+  }
 }

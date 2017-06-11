@@ -1,11 +1,31 @@
-<div class="container">
-  {{!-- {{#link-to 'home'}} --}}
-    <img src="/images/bella-logo.png" alt="" class="navbar__logo centered">
-  {{!-- {{/link-to}} --}}
-  <div class="navbar">
-    <div class="navbar__button"><p class="button__text centered">About Us</p></div>
-    <div class="navbar__button"><p class="button__text centered">Gallery</p></div>
-    <div class="navbar__button"><p class="button__text centered">Locations</p></div>
-    <div class="navbar__button"><p class="button__text centered">Contact</p></div>
+<div class="navbar">
+  <div class="navbar__logo">
+    {{#link-to 'home'}}
+      <img src="/images/bella-logo.png" alt="" class="bella__logo">
+    {{/link-to}}
   </div>
+  <div class="navbar__links">
+    {{#link-to 'about' class="navbar__button"}}
+      <p class="button__text hvr-underline-from-center">About</p>
+    {{/link-to}}
+    {{#link-to 'gallery' class="navbar__button"}}
+      <p class="button__text hvr-underline-from-center">Gallery</p>
+    {{/link-to}}
+    {{#link-to 'locations' class="navbar__button"}}
+      <p class="button__text hvr-underline-from-center">Locations</p>
+    {{/link-to}}
+  </div>
+</div>
+
+{{outlet}}
+
+<div class="footer">
+  <div class="social-media">
+    <a target="_blank" href="https://www.facebook.com/BellaDivineHuntsville/">{{fa-icon 'facebook' class="social-media__icon"}}</a>
+    <a target="_blank" href="http://www.instagram.com/belladivinedresshuntsville">{{fa-icon 'instagram' class="social-media__icon"}}</a>
+    <a target="_blank" href="mailto:belladivinedress@gmail.com">{{fa-icon 'envelope' class="social-media__icon"}}</a>
+  </div>
+
+  <a target="_blank" href="http://caleblee.me">Website by Caleb Lee</a>
+  <p>Copyright © 2017 Bella Divine All Rights Reserved.</p>
 </div>

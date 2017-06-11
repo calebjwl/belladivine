@@ -1,0 +1,29 @@
+.preview {
+  width: calc(100% / 4 - 0.15rem);
+  height: 60vh;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+@media (min-width: 320px) and (max-width: 590px) {
+  .preview {
+    width: 100%;
+  }
+}
+
+.main-gallery {
+  margin: 0;
+  padding: 1rem;
+  background: url('/images/gallery-banner.jpg') fixed no-repeat;
+  background-size: cover;
+  overflow: auto;
+
+  &__content {
+    max-width: 65rem;
+    margin: 0 auto;
+  }
+
+  &__image {
+    width: 20rem;
+  }
+}

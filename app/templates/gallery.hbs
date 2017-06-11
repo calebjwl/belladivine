@@ -1,0 +1,18 @@
+<div class="main-gallery">
+  <div class="container">
+    <div class="centered">
+      <p class="title-text" id="about">Gallery</p>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container">
+    <div class="grid">
+      {{#photo-swipe items=items history=false as |photoswipe|}}
+        {{#each items as |item index|}}
+          <img class="preview" src={{item.src}} {{action 'open' (hash index=index) target=photoswipe}}/>
+        {{/each}}
+      {{/photo-swipe}}
+    </div>
+  </div>
+</div>

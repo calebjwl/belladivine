@@ -3,7 +3,7 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   items: [
     {
-      src: 'huntsville.jpg',
+      src: '/images/huntsville.jpg',
       title: 'Huntsville, AL',
       mall: 'Parkway Place Mall',
       street: '2801 Memorial Pkwy SW',
@@ -14,7 +14,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//2801+Memorial+Pkwy+SW,+Huntsville,+AL+35801/@34.7074097,-86.6573115,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x88626cb6f14df777:0xb6310f3a499528d9!2m2!1d-86.5872708!2d34.7072886',
     },
     {
-      src: 'fairfield.png',
+      src: '/images/fairfield.png',
       title: 'Fairfield, OH',
       mall: 'The Mall at Fairfield Commons',
       street: '2727 Fairfield Commons',
@@ -25,7 +25,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//The+Mall+at+Fairfield+Commons,+2727+Fairfield+Commons,+Beavercreek,+OH+45431/@39.7673189,-84.1264585,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x88409c607dc50449:0xa896241ea23e8449!2m2!1d-84.056418!2d39.767208',
     },
     {
-      src: 'olmstead.png',
+      src: '/images/olmstead.png',
       title: 'North Olmstead, OH',
       mall: 'Great Northern Mall',
       street: '4954 Great Northern Blvd Unit 632',
@@ -36,7 +36,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//Great+Northern+Mall,+4954+Great+Northern+Mall,+North+Olmsted,+OH+44070/@41.4171475,-81.9759364,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8830930b268db571:0xd513decb45cdefc0!2m2!1d-81.905896!2d41.41704',
     },
     {
-      src: 'toledo-map.png',
+      src: '/images/toledo-map.png',
       title: 'Toledo, OH',
       mall: 'Franklin Park Mall',
       street: '5001 Monroe St',
@@ -47,7 +47,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//5001+Monroe+St,+Toledo,+OH+43623/@41.6944114,-83.6468595,15.43z/data=!4m8!4m7!1m0!1m5!1m1!1s0x883c7efa33864b15:0x8df158fc81e338ec!2m2!1d-83.6405727!2d41.6947913',
     },
     {
-      src: 'cind-dayton.png',
+      src: '/images/cind-dayton.png',
       title: 'Cinderella | Dayton, OH',
       mall: 'Dayton Mall',
       street: '2700 Miamisburg Centerville Rd',

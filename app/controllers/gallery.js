@@ -119,8 +119,8 @@ export default Ember.Controller.extend({
     },
     {
       src: '/images/30.jpg',
-      w: 960,
-      h: 662,
+      w: 720,
+      h: 960,
     },
-  ]
+  ],
 });

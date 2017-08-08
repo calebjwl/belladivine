@@ -14,6 +14,7 @@
   padding: 1rem;
   background: url('/images/roses-bg.jpg') fixed center no-repeat;
   background-size: cover;
+  color: $c-white;
   overflow: auto;
 
   &__content {

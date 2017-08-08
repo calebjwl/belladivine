@@ -63,6 +63,17 @@
   text-align: center;
 }
 
+.video {
+  &__card {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  &-player {
+  }
+}
+
 @media (min-width: 320px) and (max-width: 590px) {
   .title-text {
     font-size: 4rem;

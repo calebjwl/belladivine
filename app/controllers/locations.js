@@ -36,7 +36,7 @@ export default Ember.Controller.extend({
       directions: 'https://www.google.com/maps/dir//Great+Northern+Mall,+4954+Great+Northern+Mall,+North+Olmsted,+OH+44070/@41.4171475,-81.9759364,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8830930b268db571:0xd513decb45cdefc0!2m2!1d-81.905896!2d41.41704',
     },
     {
-      src: '/images/toledo-map.png',
+      src: '/images/toledo.jpg',
       title: 'Toledo, OH',
       mall: 'Franklin Park Mall',
       street: '5001 Monroe St',

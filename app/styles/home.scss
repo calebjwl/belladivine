@@ -67,7 +67,7 @@
   justify-content: center;
   width: 100%;
   padding: 1.5rem 0;
-  background: $c-rose;
+  background: linear-gradient(0deg, $c-white, $c-rose);
 
   &__card {
     display: flex;

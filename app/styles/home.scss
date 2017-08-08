@@ -64,13 +64,28 @@
 }
 
 .video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 1.5rem 0;
+  background: $c-rose;
+
   &__card {
     display: flex;
-    justify-content: center;
-    width: 100%;
+    max-width: 65rem;
+
+    &-title {
+      margin: 0;
+    }
   }
 
-  &-player {
+  &__player {
+    width: 60%;
+  }
+
+  &__info {
+    max-width: 30%;
+    padding: 0 1rem;
   }
 }
 

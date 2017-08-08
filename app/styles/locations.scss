@@ -7,14 +7,6 @@
     flex-grow: 1;
     min-width: 20rem;
     margin: 0.5rem;
-
-    &_70 {
-      width: calc(100% - 35% - 1rem);
-    }
-
-    &_30 {
-      width: calc(100% - 65% - 1rem);
-    }
   }
 }
 
@@ -50,21 +42,6 @@
 .g-map-canvas {
   width: 100%;
   height: 100%;
-}
-
-@media (min-width: 320px) and (max-width: 480px) {
-  .grid__item {
-    &_70 {
-      flex-grow: 1;
-      min-width: 20rem;
-      margin: -3rem 0;
-    }
-
-    &_30 {
-      flex-grow: 1;
-      min-width: 20rem;
-    }
-  }
 }
 
 .main-locations {

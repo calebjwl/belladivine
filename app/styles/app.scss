@@ -1,9 +1,10 @@
 $m-gutter: 1rem;
 $c-white: #fff;
+$c-transparent-white: rgba(#fff, 0.7);
 $c-gray: #d7d7d7;
 $c-gray-darker: #717171;
 $s-border: $c-gray 0.1rem solid;
-$c-rose: rgba(#D67FB1, 0.1);
+$c-rose: rgba(#d67fb1, 0.25);
 
 @import 'reset';
 @import 'navbar';

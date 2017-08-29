@@ -7,6 +7,7 @@
 </div>
 <div class="section">
   <div class="container">
+    <h2>Our Story</h2>
     <p>
     Bella Divine is a family business that offers the latest styles in formal fashion since it first opened its
     doors in January 2017. Before Bella Divine, branch manager and owner Esther Lee managed partner store Cinderella
@@ -19,5 +20,18 @@
     <p>Our slogan is "Beauty starts with a divine heart". We aim to create a positive atmosphere in our shopping
     experience so that customers leave our shop feeling beautiful and whole-hearted. We believe in serving our customers with
     integrity and honesty in order to find the dress that is truly perfect for them.</p>
+
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      {{#each items as |testimonial|}}
+        <div class="testimonial__card">
+          <div class="testimonial__quote">
+            <p class="quote">"{{testimonial.quote}}"</p>
+            <p>- {{testimonial.name}}</p>
+          </div>
+          <img src="{{testimonial.src}}" alt="" class="testimonial__image">
+        </div>
+      {{/each}}
+    </div>
   </div>
 </div>

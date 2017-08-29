@@ -34,6 +34,7 @@
 
   &__card {
     display: flex;
+    flex-grow: 1;
     width: calc(100% / 2 - 2.4rem);
     margin: 1rem;
     border: $c-rose 0.2rem solid;

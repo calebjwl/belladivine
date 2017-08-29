@@ -23,31 +23,15 @@
 
     <h2>Testimonials</h2>
     <div class="testimonial">
-      <div class="testimonial__card">
-        <div class="testimonial__quote">
-          <blockquote class="quote">"Prom was a success!"</blockquote>
-          <p>- Karen Adams</p>
+      {{#each items as |testimonial|}}
+        <div class="testimonial__card">
+          <div class="testimonial__quote">
+            <blockquote class="quote">"{{testimonial.quote}}"</blockquote>
+            <p>- {{testimonial.name}}</p>
+          </div>
+          <img src="{{testimonial.src}}" alt="" class="testimonial__image">
         </div>
-        <img src="/images/testimonials/karen.jpg" alt="" class="testimonial__image">
-      </div>
-      <div class="testimonial__card">
-        <img src="/images/testimonials/rasheeda.jpg" class="testimonial__image">
-        <div class="testimonial__quote">
-          <blockquote class="quote">"Thank you so much for having what we wanted, money well spent."</blockquote>
-          <p>- Rasheeda Cross</p>
-        </div>
-      </div>
-      <div class="testimonial__card">
-        <div class="testimonial__quote">
-          <blockquote class="quote">"Thank you Bella Devine for my
-            beautiful dress to celebrate my 50th birthday. I searched all
-            over and found the perfect dress, perfect color and the right plus size.
-            I am a very happy Customer."
-          </blockquote>
-          <p>- Ollie Green</p>
-        </div>
-        <img src="/images/testimonials/ollie-green.jpg" class="testimonial__image">
-      </div>
+      {{/each}}
     </div>
   </div>
 </div>

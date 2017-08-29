@@ -24,7 +24,7 @@ export default Ember.Controller.extend({
     },
     {
       src: '/images/testimonials/michelle.jpg',
-      name: 'Rasheeda Cross',
+      name: 'Michelle Dotson',
       quote: 'Thank you so much for Addie\'s Princess Dress. She won Miss Strawberry, Best Personality and Best Hair today! And she had a beautiful dress to wear.',
     },
     {

@@ -25,12 +25,12 @@ export default Ember.Controller.extend({
     {
       src: '/images/testimonials/michelle.jpg',
       name: 'Rasheeda Cross',
-      quote: 'Thank You so much for Addie\'s Princess Dress. She won Miss Strawberry, Best Personality and Best Hair today! And she had a beautiful dress to wear.',
+      quote: 'Thank you so much for Addie\'s Princess Dress. She won Miss Strawberry, Best Personality and Best Hair today! And she had a beautiful dress to wear.',
     },
     {
       src: '/images/testimonials/diana.jpg',
       name: 'Diana Shields',
-      quote: 'I just wanted to say thank you for being a part of making my daughter\'s prom special!',
+      quote: 'Thank you for being a part of making my daughter\'s prom special!',
     },
   ],
 });

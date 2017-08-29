@@ -27,32 +27,3 @@
     width: 20rem;
   }
 }
-
-.testimonial {
-  display: flex;
-  flex-wrap: wrap;
-
-  &__card {
-    display: flex;
-    flex-grow: 1;
-    width: calc(100% / 2 - 2.4rem);
-    margin: 1rem;
-    border: $c-rose 0.2rem solid;
-  }
-
-  &__quote {
-    width: calc(60% - 2rem);
-    padding: 1rem;
-  }
-
-  &__image {
-    width: calc(40% - 2rem);
-    height: 50vh;
-    object-fit: cover;
-    padding: 1rem;
-  }
-}
-
-.quote {
-  font-style: italic;
-}

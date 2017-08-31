@@ -28,3 +28,9 @@
 .quote {
   font-style: italic;
 }
+
+@media (min-width: 320px) and (max-width: 750px) {
+  .testimonial__card {
+    width: 100%;
+  }
+}

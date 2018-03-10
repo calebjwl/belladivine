@@ -3,7 +3,7 @@
 }
 
 .title-text {
-  margin: 0;
+  margin: 0 0 -1rem;
   color: $c-white;
   font-family: 'Allura';
   font-size: 5.5rem;
@@ -49,10 +49,10 @@
     display: flex;
     max-width: 65rem;
     margin: 1rem;
+    padding: 1rem;
     background: rgba($c-white, 0.9);
 
     &_card {
-      padding: 1rem;
       object-fit: cover;
     }
   }
